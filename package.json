@@ -17,7 +17,8 @@
     "cloudfront:update:build:deploy": "npm run cloudfront:setup && npm run cloudfront:build:deploy",
     "cloudfront:update:build:deploy:nc": "npm run cloudfront:setup && npm run cloudfront:build:deploy:nc",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "get:IAM": "aws iam get-user --user-name=Administrator"
   },
   "dependencies": {
     "@material-ui/core": "^4.11.0",
